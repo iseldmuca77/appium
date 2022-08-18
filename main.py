@@ -8,8 +8,8 @@ from random import randint
 
 
 desired_cap ={
-    "deviceName": "be39be96",
-    "platformName": "Android"
+    "deviceName": "",
+    "platformName": ""
 }
 driver = webdriver.Remote("http://localhost:4723/wd/hub",desired_cap)
 driver.implicitly_wait(30)
